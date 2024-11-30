@@ -1,0 +1,44 @@
+<div class="container mt-5">
+    <div class="h1 text-center">
+      I'm a Fresher, I am waiting for an opportunity
+    </div>
+    <div class="row mt-5">
+      <div class="container-fluid col-6">
+        <h3>Skills:</h3>
+        <div class="p mt-3">
+          <p><strong>Web Technologies</strong>: {{ skills.webTechnologies }}</p>
+          <p><strong>IDE</strong>: {{ skills.ide }}</p>
+          <p><strong>Operating System</strong>: {{ skills.os }}</p>
+          <p><strong>Area of Interest</strong>: {{ skills.interest }}</p>
+          <p><strong>Degree</strong>: {{skills.degree}} </p>
+        </div>
+      </div>
+      <div class="col-6">
+        <h3>Resume:</h3>
+        <div class="p mt-3">
+          Would you like to view my resume? You can download it.
+        </div>
+        <a
+          href="{{ resumePath }}"
+          class="btn mt-3 p-1 text-decoration-none"
+          download
+        >
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div class="conatainer">
+          <div class="skill">
+            <h3>Angular</h3>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%;">80%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  
+  </div>
+ 
+  <!-- Footer Section -->
+  <div class="footer-section"></div>
+  

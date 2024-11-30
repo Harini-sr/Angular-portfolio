@@ -1,0 +1,17 @@
+  nav div ul li a{
+    margin: 10px;
+   padding: 10px;
+   color: #000;
+   font-size: 20px;
+   border-bottom: 2px solid;
+   width: 100px;
+   gap: 50px;
+   border-image: linear-gradient(to right, red, blue) 2;
+} 
+  
+ nav div ul li a:hover{
+   border-bottom: 2px solid;
+   border-image: linear-gradient(to right, yellow, red)2;
+    color: red;
+}
+ 
